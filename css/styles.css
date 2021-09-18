@@ -1,0 +1,178 @@
+body {
+  background-color: #EAF6F6;
+  font-size: 1.2em;
+  font-weight: 400;
+  font-family: 'Gluten', cursive;
+  margin: 0;
+  text-align: center;
+  overflow: scroll;
+  scroll-behavior: smooth;
+}
+
+h1 {
+  color: #66BFBF;
+  font-size: 5rem; /* 1em = 100% = 16px */
+  font-weight: 200;
+  margin: 50px auto 0 auto;
+}
+
+h2 {
+  color: #66BFBF;
+  font-weight: 300;
+  font-size: 2.5rem;
+  margin: 20px auto;
+}
+
+h3 {
+  color: #11999E;
+  font-weight: 500;
+  margin: 20px auto;
+}
+
+p {
+  color: #40514E;
+  line-height: 1.5;
+}
+
+a {
+  color: #11999E;
+  margin: 0 20px;
+  text-decoration: none;
+}
+
+hr {
+  border-color: lightgrey;
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 4px;
+  margin: 100px auto;
+  width: 35px;
+}
+
+.top-container {
+  background-color: #EAF6F6;
+  width: 100%;
+  height: 100%;
+  padding-top: 50px;
+  position: relative;
+}
+
+.top-cloud {
+  position: relative;
+  left: 220px;
+}
+
+.bottom-cloud {
+  position: relative;
+  right: 220px
+}
+
+.middle-container {
+  background-color: #FFFFFF;
+  padding: 50px 0;
+  animation: wipe-enter 2s;
+}
+
+.profile-pic {
+  margin: auto auto 20px auto;
+}
+
+.code-img {
+  float: left;
+  margin: auto 30px auto auto;
+  min-width: 100px;
+  width: 25%;
+}
+
+.pizza-img {
+  float: right;
+  margin: auto auto auto 30px;
+  min-width: 100px;
+  width: 25%;
+}
+
+.music-img {
+  float: left;
+  margin: auto 30px auto auto;
+  min-width: 100px;
+  width: 25%;
+}
+
+.skill-row {
+  text-align: left;
+  margin: 50px auto;
+  width: 50%;
+}
+
+.cooking-text {
+  /*clear: right; this clears a side from other contents; 'opposite' of float*/
+  text-align: right;
+}
+
+.contact-me {
+  text-align: center;
+}
+
+.BUTTON_DJV {
+  background: #66BFBF;
+  background-image: -webkit-linear-gradient(top, #66BFBF, #11999E);
+  background-image: -moz-linear-gradient(top, #66BFBF, #11999E);
+  background-image: -ms-linear-gradient(top, #66BFBF, #11999E);
+  background-image: -o-linear-gradient(top, #66BFBF, #11999E);
+  background-image: -webkit-gradient(to bottom, #66BFBF, #11999E);
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+  color: #FFFFFF;
+  font-family: inherit;
+  font-weight: 300;
+  font-size: 1rem;
+  padding: 10px;
+  -webkit-box-shadow: 0 6px 20px 1px #000000;
+  -moz-box-shadow: 0 6px 20px 1px #000000;
+  box-shadow: 0 6px 20px 1px #000000;
+  text-shadow: 0 1px 16px #000000;
+  border: solid #337FED 0;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  width: 150px;
+  margin: 5px auto 20px auto;
+}
+
+.BUTTON_DJV:hover {
+  border: solid #337FED 0;
+  background: #11999E;
+  background-image: -webkit-linear-gradient(top, #11999E, #66BFBF);
+  background-image: -moz-linear-gradient(top, #11999E, #66BFBF);
+  background-image: -ms-linear-gradient(top, #11999E, #66BFBF);
+  background-image: -o-linear-gradient(top, #11999E, #66BFBF);
+  background-image: -webkit-gradient(to bottom, #11999E, #66BFBF);
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+  text-decoration: none;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 50px;
+}
+
+.footer-text {
+  color: #EAF6F6;
+  font-size: 0.75em;
+}
+
+.website-icon {
+  width: 20px;
+}
+
+.footer-link {
+  font-size: 1.5em;
+}
+
+.footer-link:hover {
+  color: #96FFEA;
+}
